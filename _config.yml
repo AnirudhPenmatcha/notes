@@ -28,6 +28,7 @@ baseurl: "/notes" # the subpath of your site, e.g. /blog
 url: "https://anirudhpenmatcha.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Anirudh__P
 github_username:  AnirudhPenmatcha
+linkedin_username: anirudhpenmatcha
 
 # Build settings
 theme: minima
