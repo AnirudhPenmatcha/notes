@@ -4,9 +4,8 @@ excerpt: "My Notes from the unit 'Intro to HTML/CSS: Making webpages' on Khan Ac
 ---
 
 
-## Index
-1. [HTML](#html)
-2. [CSS](#css)
+## Jump to sections:
+- [CSS](#css)
 
 ### HTML
 ```
@@ -70,6 +69,65 @@ Adding an image
 ```
  <img src= "Link/path to your image" alt="Text to display if image is not being rendered" width="mention either width or height and let the browser calculate the other dimension otherwise images will change based on the viewing device">
 ```
+Adding a Link
+```
+<a href="www.google.com"> click here to open google </a>
+```
+> `<a>` - stands for anchor
+
+If you use the attribute "target" with the value `_blank`, then you can open the link in a new tab
+
+`<a target="_blank" href="www.google.com"> click here to open google </a>`
+
+We can also turn an image into a clickable hyperlink by including it in b/w the anchor tag
+
+`<a target="_blank" href="www.google.com"> click here to open google <img src="link to an image" width="300"> </a>`
+
+To create internal links a.k.a link to a particular section within a page then we can do it with the help of an id. First assign a unique id to that section
+
+`<h2 id="web-history">History of the web</h2>`
+
+Then you can create a table of contents at the top of your webpage like this
+```
+       <ul>
+            <li><a href="#web-history">History of the web</a></li>
+            <li>History of HTML versions</li>
+        </ul>
+```        
+Tables (In order to add to add borders and customize them you need to do it through CSS)
+```
+<table>
+  <thead> <!-- Table Column Labels -->
+      <tr>
+          <th>Pet name</th>
+          <th>Species</th>
+          <th>Color</th>
+      </tr>
+  </thead>
+  <tbody> <!-- Table Content -->
+      <tr> <!-- Entry for the next row -->
+          <td>Black & white</td>
+          <td>rabbit</td>
+          <td>black and white</td>
+      </tr>
+      <tr>
+          <td>Daemon</td>
+          <td>cat</td>
+          <td>black</td>
+      </tr>
+      <tr>
+          <td>Angel</td>
+          <td>cat</td>
+          <td>orange</td>
+      </tr>
+  </tbody>
+</table>
+```
+
+To comment
+
+`<!-- Comment here whatever you would like to -->`
+
 Make sure to close the tags:
 ```
 </body>
@@ -136,4 +194,6 @@ Modifying multiple tags at once
 ```
 </body>
 </html>
-``` 
+```
+## Jump to sections:
+- [HTML](#html)
