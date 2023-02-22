@@ -1,6 +1,6 @@
 ---
 title: "Tips & Tricks on applying for Internship/Jobs"
-excerpt: "These are some of the tips & tricks for applying to internships/jobs from an online course.I made this for myself keeping in mind about roles in the IT/Computer Science industry, but most of it is useful for anybody irrespective of which role you are looking for."
+excerpt: "Some pointers for applying to internships/jobs from an online course. I made this for myself keeping in mind about the roles in the IT/Computer Science industry, but most of it is useful for anybody irrespective of which role they are applying for."
 date: 2023-02-22 00:00:00
 ---
 
