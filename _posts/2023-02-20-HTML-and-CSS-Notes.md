@@ -4,7 +4,7 @@ excerpt: "My Notes from the unit 'Intro to HTML/CSS: Making webpages' on Khan Ac
 ---
 
 
-## Jump to sections:
+## Jump to section:
 - [CSS](#css)
 
 ### HTML

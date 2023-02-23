@@ -56,7 +56,7 @@ date: 2023-02-22 00:00:00
   - recruiters usually find candidates by searching for keywords relevant to the job profile for which they are recruiting.
     - For example: A web developer profile can include words such as backend, frontend, database management, etc.
     - Another example: For a content writing profile, keywords such as SEO, proofreading, grammar, etc. will be helpful
-    - one way you can find such keywords is by reading job descriptions relevant to the profile you are looking for
+    - one way you can find such keywords is by reading job descriptions relevant to the profile you are looking for, or by talking to people in the industry
 
 - build a professional connection on linkedin
   - send them connection requests
