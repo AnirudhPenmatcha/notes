@@ -191,6 +191,63 @@ Modifying multiple tags at once
 
 <p class="multiple-para-style"> DJ KHALED!!! </p>
 ```
+CSS text properties
+
+Changing the font-family
+```
+p {
+     font-family: "Helvetica", sans-serif;
+}
+```
+> The first font will be used. In case it is not available, then the second font will be used. Another thing to note is "serif" or "sans-serif" might be processed differently depending on what the default language of that device is.
+
+Changing the font-size
+
+By default, heading's size is relative to body text size. Here we use "px" and "em" as units for size. "em" is what calculates the relative size. There are multiple types of units for size. You can check online for more info on that.
+```
+body {
+    font-size: 12px;
+}
+h2 {
+    font-size: 1.5em;
+}  
+```
+CSS font styles and shorthand
+
+You can bolden or italicize with CSS too
+```
+#rabbits-info {
+  font-weight: bold;
+}
+
+.song-lyrics {
+  font-family: fantasy;
+  font-size: 13px;
+  font-style: italic;
+}
+```
+You can also use something called as a shorthand in the order "style size fontfamily", like so:
+<br>
+`font: italic 13px fantasy;`
+
+Spacing b/w sentences, underlining, text alignment(left, center, right, justify)
+```
+.song-lyrics {
+ text-decoration: underline;
+ line-height: 1.5em;
+ text-align: center;
+}
+```
+>You can even use "text-decoration" to remove underlining from hyperlinks
+
+CSS inheritance<br>
+When you modify properties in tags like body, the changes will be reflected throughout the page unless overridden. For example, if you set the font size as 10 in body and in a h2 tag you modify it to 5, then the h2 heading will be 5.
+However, not all properties are inherited by the entire page.   
+
+
+
+
+
 ```
 </body>
 </html>
